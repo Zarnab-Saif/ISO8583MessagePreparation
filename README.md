@@ -1,2 +1,2 @@
 # ISO8583MessagePreparation
-HI Everyone!
+This is a transaction preparation service using ISO8583 format. The primary input for the service is a JSON string that contains all the necessary data fields for the financial transaction. Upon receiving the JSON request, the service performs a series of validations and mappings to ensure the integrity and accuracy of the provided data. It verifies that all mandatory fields are present, perform data elements' validation, and applies any necessary formatting or transformations as specified by the ISO8583 standard. The prepared ISO8583 message is then returned as the response to the client application.
